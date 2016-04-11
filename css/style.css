@@ -1,6 +1,12 @@
-
+html {
+	-webkit-font-smoothing: antialiased;
+}
 body {
     background-color: LightGray;
+    font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
 }
 div {
     border: 1px solid Chocolate;
@@ -9,14 +15,37 @@ div {
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
+	
+
 }
 .top-navigation > .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0px 15px;
+	box-sizing: border-box;
+
 }
 .logo {
-	margin-left: 14px;
 	margin-top: 15px;
+	
 
+}
+
+.top-navigation > .content > .links {
+	float: right;
+	margin-top: 15px;
+	
+}
+
+li {
+	margin-left: 20px;
+	list-style-type: none;
+	display: inline; /* this removes the line break so the links are displayed alongside each other */
+
+}
+
+.top-navigation > .content > .links > .active {
+	color: #4c5058;
+	font-weight: 500;
 }
