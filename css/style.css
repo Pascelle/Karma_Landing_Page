@@ -114,3 +114,26 @@ button:hover {
     border-color: #cf3d0e;
     cursor: pointer;
 }
+
+/* Cases section */
+
+.cases {
+	background-color: white;
+}
+
+.content h2 {
+	padding: 10rem;
+	margin: 0 auto;
+	display: block;
+}
+
+.content ul {
+	margin: 0 auto;
+	display: block;
+}
+
+.cases li {
+
+	 width: 33.3333333%;
+    display: inline-block;
+}
