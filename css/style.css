@@ -50,8 +50,12 @@ body {
 	
 }
 
+.links li {
+	margin-right: 20px;
+}
+
+
 li {
-	margin-left: 20px;
 	list-style-type: none;
 	display: inline; /* this removes the line break so the links are displayed alongside each other */
 	
@@ -123,17 +127,30 @@ button:hover {
 
 .content h2 {
 	padding: 10rem;
-	margin: 0 auto;
-	display: block;
+	text-align: center;
 }
 
 .content ul {
-	margin: 0 auto;
-	display: block;
-}
+	}
 
 .cases li {
 
-	 width: 33.3333333%;
+	 width: 33%;
     display: inline-block;
+    text-align: center;
+}
+
+.cases li img {
+	width: 127px;
+	height: 127px;
+	display: block;
+	margin: auto;
+}
+/* Footer */
+.social {
+	background-color: #fff;
+}
+h5 {
+	text-align: center;
+	margin-top: 20px;
 }
