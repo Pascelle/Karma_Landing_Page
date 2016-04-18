@@ -130,9 +130,9 @@ button:hover {
 	text-align: center;
 }
 
-.content ul {
-	}
-
+.cases .content ul {
+	padding-bottom: 60px;
+}
 .cases li {
 
 	 width: 33%;
@@ -150,7 +150,23 @@ button:hover {
 .social {
 	background-color: #fff;
 }
+
 h5 {
 	text-align: center;
 	margin-top: 20px;
+}
+
+.social .icons > li {
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	margin: 1.25rem 5px;
+	border: 1px solid #eaebec;
+	padding: 0.625rem 0;
+	text-align: center;
+}
+
+.social .twitter {
+	color: #55acee;
 }
